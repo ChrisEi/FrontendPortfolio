@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
+import { LandingHeroComponent } from './landing-hero/landing-hero.component';
 
 const routes: Routes = [];
 

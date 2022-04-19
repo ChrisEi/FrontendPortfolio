@@ -1,0 +1,35 @@
+// Navbar coloring
+$navBgColor: hsl(156, 39%, 43%);//#333;
+$navHighlightColor: #ddd;
+$navTextColor: #fff;
+$navTextHighlight: #000;
+
+// nav css class
+.topnav {
+    //background-color: $navBgColor;
+    //overflow: hidden;
+    width: 100%;
+    max-width: inherit;
+    padding: 2vh 0;
+    position: absolute;
+    top: 0;
+    //display: flex;
+    //z-index: 0;
+    //border-radius: 0 0 10px 10px;
+    //box-shadow: 5px 5px 2px hsl(180, 26%, 12%);
+
+    a {
+        float: left;
+        color: $navTextColor;
+        text-decoration: none;
+        padding: 5px;
+        
+    }
+    a:hover {
+        background-color: $navHighlightColor;
+        color: $navTextHighlight;
+    }
+    nav.right {
+        float: right;
+    }
+}
